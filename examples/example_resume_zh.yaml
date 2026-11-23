@@ -1,29 +1,45 @@
-# 完全虚构的示例，所有经历和指标仅用于演示。
+# Hogwarts-themed fictional demonstration. Activities, dates, publications and metrics are illustrative, not a canonical biography or real credentials.
 template: zh
 header:
-  name: 陈示例
-  contact: "邮箱：alex@example.com    电话：+1-555-010-0000"
+  name: 赫敏·格兰杰
+  contact: 猫头鹰邮局：霍格沃茨格兰芬多塔楼
 sections:
-  - title: 教育经历
-    style: large
-    entries:
-      - title: 示例大学
-        location: 中国杭州
-        date: 2021.09-2025.06
-        subtitle: 自动化专业，工学学士
-        bullets:
-          - "GPA：3.8/4.0，专业排名 5/120"
-  - title: 项目经历
-    entries:
-      - title: 果实识别与抓取定位系统
-        date: 2026.01-2026.05
-        subtitle: 项目负责人
-        bullets:
-          - 基于 Python 和深度图像搭建果实识别与定位流程。
-          - 融合深度特征，将检测 mAP50 由 72.1% 提升至 79.4%。
-          - 在 NVIDIA Jetson Orin 上将单帧延迟降低至 21 ms。
-  - title: 专业技能
-    type: bullets
-    items:
-      - "**编程：** Python、C++、MATLAB"
-      - "**工具：** PyTorch、OpenCV、ROS 2"
+- title: 教育经历
+  style: large
+  entries:
+  - title: 霍格沃茨魔法学校
+    location: 霍格沃茨城堡
+    date: 1991.09-1997.06
+    subtitle: 格兰芬多学院学生；级长
+    bullets:
+    - 学习方向：魔咒学、变形术、魔药学与古代如尼文。
+    - 在虚构演示课程中完成 12 项有指导的施咒练习。
+- title: 研究文章
+  type: publications
+  items:
+  - '**格兰杰，赫敏**、洛夫古德，卢娜（1997）。学习小组中的可重复铁甲咒练习。《霍格沃茨学生魔咒研究》。〔虚构示例文稿〕'
+- title: 研究经历
+  entries:
+  - title: 铁甲咒练习研究
+    location: 有求必应屋
+    date: 1996.09-1997.06
+    subtitle: 学生研究负责人
+    bullets:
+    - 设计可重复的铁甲咒练习流程，通过同伴观察记录施咒表现。
+    - 在 24 次模拟练习中比较 3 组挥杖动作。
+    - 编写魔咒研究笔记，整理练习结果及纠正方法。
+- title: 组织经历
+  entries:
+  - title: 邓布利多军
+    location: 有求必应屋
+    date: 1995.10-1996.06
+    subtitle: 同伴练习协调员
+    bullets:
+    - 组织 8 场虚构的防御魔咒练习活动。
+    - 制作图文复习笔记，安排学生结对开展有指导的练习。
+- title: 专业技能
+  type: bullets
+  items:
+  - '**魔法技能：** 魔咒学、变形术、防御魔法'
+  - '**研究方法：** 古代如尼文、魔药笔记、魔法图书馆检索'
+  - '**工具：** 魔杖、羊皮纸、羽毛笔、魔法参考书'

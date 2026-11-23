@@ -1,55 +1,45 @@
-# Fictional example. Copy this file and replace everything with real information.
+# Hogwarts-themed fictional demonstration. Activities, dates, publications and metrics are illustrative, not a canonical biography or real credentials.
 header:
-  name: Alex Chen
-  contact: "email: alex@example.com    Telephone: +1-555-010-0000"
-
+  name: Hermione Granger
+  contact: 'Owl Post: Gryffindor Tower, Hogwarts'
 sections:
-  - title: Education
-    style: large
-    gap_between_entries: false
-    entries:
-      - title: Example State University
-        location: State College, PA, USA
-        date: 08/2025-Present
-        subtitle: PhD Student in Electrical Engineering (Research Assistant)
-        bullets:
-          - "Research Areas: Robotics, Computer Vision, Embedded Systems"
-          - "GPA: 3.95/4.00"
-      - title: Example University
-        location: Hangzhou, China
-        date: 09/2021-06/2025
-        subtitle: B.Eng. in Automation
-        bullets:
-          - "GPA: 3.8/4.0 (Rank 5/120)"
-          - "Honors: National Scholarship (10/2023), 1^st^ Class Academic Scholarship (10/2022 & 10/2024)"
-
-  - title: Publications
-    type: publications
-    items:
-      - "**Chen, A.**, & Smith, B. (2026). Lightweight depth fusion for field robot perception. *Computers and Electronics in Agriculture*. (Under Review)"
-
-  - title: Research Experience
-    entries:
-      - title: RGB-D Perception for Robotic Fruit Picking
-        date: 01/2026-05/2026
-        subtitle: Lead Researcher; paper under review
-        bullets:
-          - Built an RGB-D pipeline for fruit detection and grasp-point localization from field-collected images.
-          - Improved detection mAP50 from 72.1% to 79.4% by fusing depth features into a YOLO backbone.
-          - Reduced per-frame latency to 21 ms on an NVIDIA Jetson Orin, enabling real-time control.
-
-  - title: Professional Experience
-    entries:
-      - title: Example Robotics Co., Ltd.
-        location: Shanghai, China
-        date: 06/2024-09/2024
-        subtitle: Algorithm Intern
-        bullets:
-          - Implemented a model predictive controller for a 6-DoF arm, cutting trajectory tracking error by 35%.
-
-  - title: Skills
-    type: bullets
-    items:
-      - "**Programming:** C, C++, Python, MATLAB"
-      - "**ML/CV:** PyTorch, OpenCV, YOLO"
-      - "**Embedded/Hardware:** STM32, ROS 2, KiCad"
+- title: Education
+  style: large
+  entries:
+  - title: Hogwarts School of Witchcraft and Wizardry
+    location: Hogwarts Castle
+    date: 09/1991-06/1997
+    subtitle: Gryffindor Student; Prefect
+    bullets:
+    - 'Focus: Charms, Transfiguration, Potions, and Ancient Runes.'
+    - Completed 12 supervised spellwork exercises in a fictional demonstration curriculum.
+- title: Publications
+  type: publications
+  items:
+  - '**Granger, H.**, & Lovegood, L. (1997). Repeatable Shield Charms in Study Groups. *Hogwarts Student Spellwork
+    Review*. (Fictional sample manuscript)'
+- title: Research Experience
+  entries:
+  - title: Shield Charm Practice Study
+    location: Room of Requirement
+    date: 09/1996-06/1997
+    subtitle: Student Research Lead
+    bullets:
+    - Designed a repeatable Protego practice routine with peer observation.
+    - Compared 3 wand-movement sequences across 24 simulated practice sessions.
+    - Compiled a spellwork notebook documenting outcomes and corrective exercises.
+- title: Leadership Experience
+  entries:
+  - title: Dumbledore’s Army
+    location: Room of Requirement
+    date: 10/1995-06/1996
+    subtitle: Peer Practice Coordinator
+    bullets:
+    - Organized 8 fictional practice workshops on defensive charms.
+    - Prepared illustrated revision notes and paired students for supervised drills.
+- title: Skills
+  type: bullets
+  items:
+  - '**Spellwork:** Charms, Transfiguration, Defensive Magic'
+  - '**Research:** Ancient Runes, Potion Notes, Magical Library Research'
+  - '**Tools:** Wand, Parchment, Quill, Enchanted Reference Books'
