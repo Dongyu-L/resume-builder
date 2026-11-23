@@ -1,0 +1,55 @@
+# Fictional example. Copy this file and replace everything with real information.
+header:
+  name: Alex Chen
+  contact: "email: alex@example.com    Telephone: +1-555-010-0000"
+
+sections:
+  - title: Education
+    style: large
+    gap_between_entries: false
+    entries:
+      - title: Example State University
+        location: State College, PA, USA
+        date: 08/2025-Present
+        subtitle: PhD Student in Electrical Engineering (Research Assistant)
+        bullets:
+          - "Research Areas: Robotics, Computer Vision, Embedded Systems"
+          - "GPA: 3.95/4.00"
+      - title: Example University
+        location: Hangzhou, China
+        date: 09/2021-06/2025
+        subtitle: B.Eng. in Automation
+        bullets:
+          - "GPA: 3.8/4.0 (Rank 5/120)"
+          - "Honors: National Scholarship (10/2023), 1^st^ Class Academic Scholarship (10/2022 & 10/2024)"
+
+  - title: Publications
+    type: publications
+    items:
+      - "**Chen, A.**, & Smith, B. (2026). Lightweight depth fusion for field robot perception. *Computers and Electronics in Agriculture*. (Under Review)"
+
+  - title: Research Experience
+    entries:
+      - title: RGB-D Perception for Robotic Fruit Picking
+        date: 01/2026-05/2026
+        subtitle: Lead Researcher; paper under review
+        bullets:
+          - Built an RGB-D pipeline for fruit detection and grasp-point localization from field-collected images.
+          - Improved detection mAP50 from 72.1% to 79.4% by fusing depth features into a YOLO backbone.
+          - Reduced per-frame latency to 21 ms on an NVIDIA Jetson Orin, enabling real-time control.
+
+  - title: Professional Experience
+    entries:
+      - title: Example Robotics Co., Ltd.
+        location: Shanghai, China
+        date: 06/2024-09/2024
+        subtitle: Algorithm Intern
+        bullets:
+          - Implemented a model predictive controller for a 6-DoF arm, cutting trajectory tracking error by 35%.
+
+  - title: Skills
+    type: bullets
+    items:
+      - "**Programming:** C, C++, Python, MATLAB"
+      - "**ML/CV:** PyTorch, OpenCV, YOLO"
+      - "**Embedded/Hardware:** STM32, ROS 2, KiCad"

@@ -1,0 +1,29 @@
+# 完全虚构的示例，所有经历和指标仅用于演示。
+template: zh
+header:
+  name: 陈示例
+  contact: "邮箱：alex@example.com    电话：+1-555-010-0000"
+sections:
+  - title: 教育经历
+    style: large
+    entries:
+      - title: 示例大学
+        location: 中国杭州
+        date: 2021.09-2025.06
+        subtitle: 自动化专业，工学学士
+        bullets:
+          - "GPA：3.8/4.0，专业排名 5/120"
+  - title: 项目经历
+    entries:
+      - title: 果实识别与抓取定位系统
+        date: 2026.01-2026.05
+        subtitle: 项目负责人
+        bullets:
+          - 基于 Python 和深度图像搭建果实识别与定位流程。
+          - 融合深度特征，将检测 mAP50 由 72.1% 提升至 79.4%。
+          - 在 NVIDIA Jetson Orin 上将单帧延迟降低至 21 ms。
+  - title: 专业技能
+    type: bullets
+    items:
+      - "**编程：** Python、C++、MATLAB"
+      - "**工具：** PyTorch、OpenCV、ROS 2"
