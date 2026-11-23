@@ -14,7 +14,7 @@ Resume Builder separates content from formatting: an assistant helps organize an
 
 ## Example output
 
-Fictional examples rendered with LibreOffice; the Chinese preview uses an available CJK fallback font.
+Hogwarts-themed fictional examples rendered with LibreOffice; the Chinese preview uses an available CJK fallback font.
 
 ![English example](examples/preview_en.png)
 ![Chinese example](examples/preview_zh.png)
@@ -82,7 +82,7 @@ Run `python3 -m unittest discover -s tests -v`. The release was checked with Pyt
 
 ## Privacy
 
-All bundled examples are fictional. Templates have been stripped of personal core properties and custom document properties. The Python scripts do not send resume content to a network service; an AI host's handling of uploaded content depends on that host.
+All bundled examples use Hogwarts-themed fictional identities and activities. Dates, publications, and metrics are invented for demonstration, not canonical biographies or real credentials. Templates have been stripped of personal core properties and custom document properties. The Python scripts do not send resume content to a network service; an AI host's handling of uploaded content depends on that host.
 
 Keep real resume data in `private/` and generated files in `outputs/`, both ignored by Git. Ignore rules are a convenience, not a privacy scanner. Before sharing a custom template or output, check its metadata, links, comments, revisions, and embedded files.
 

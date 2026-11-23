@@ -46,7 +46,7 @@ Ask only questions that materially change the output; use facts already availabl
 ### 3. Draft the YAML
 - Apply `references/writing-rules.md`.
 - When polishing an existing resume, respect the requested degree of change. "Don't change much" means: fix errors, tighten wording, add quantification where the user gave numbers, keep structure and most sentences. Keep a list of every substantive change for the hand-off.
-- Keep the owner's name bold in publications (`**Chen, A.**`).
+- Keep the owner's name bold in publications (`**Granger, H.**`).
 
 ### 4. Build, check, look
 ```bash
